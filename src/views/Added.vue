@@ -26,6 +26,7 @@ export default {
     ...mapActions({
       addNewTableData: 'addNewTableData'
     }),
+
     addTableData() {
       this.$axios
         .post('/table-data', {
