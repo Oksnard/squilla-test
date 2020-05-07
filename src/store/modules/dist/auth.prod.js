@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var _default={state:{isAuth:null},actions:{getIsAuth:function(t,e){t.commit("setAuth",e)}},mutations:{setAuth:function(t,e){t.isAuth=e}},getters:{isAuth:function(t){return t.isAuth}}};exports.default=_default;
